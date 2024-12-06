@@ -26,7 +26,7 @@ const index_J = alphabet.indexOf('J');
 const index_n = alphabet.indexOf('N');
 const index_e = alphabet.indexOf('E');
 const name = alphabet.charAt(index_J)+(alphabet.charAt(0)+alphabet.charAt(index_n)+alphabet.charAt(index_e)).toLowerCase();
-const surname =  alphabet.slice(alphabet.indexOf('S'),alphabet.indexOf('T'))+(alphabet.substr(alphabet.indexOf('M'),1)+alphabet.substring(alphabet.indexOf('I'),1)+alphabet.slice(alphabet.indexOf('T'), alphabet.indexOf('U'))+alphabet.slice(alphabet.indexOf('H'), alphabet.indexOf('I'))).toLowerCase(); 
+const surname =  alphabet.slice(alphabet.indexOf('S'),alphabet.indexOf('T'))+(alphabet.substring(alphabet.indexOf('M'),1)+alphabet.substring(alphabet.indexOf('I'),1)+alphabet.slice(alphabet.indexOf('T'), alphabet.indexOf('U'))+alphabet.slice(alphabet.indexOf('H'), alphabet.indexOf('I'))).toLowerCase(); 
 const fullName = `${name} ${surname}`;
 console.log(fullName); // Output: "Jane Smith"
 
